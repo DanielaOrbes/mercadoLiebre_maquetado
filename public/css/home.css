@@ -8,7 +8,7 @@
     text-align: center;
     color: var(--colorGrisOscuro);
     font-size: var(--titular);
-    margin-top: -12px;
+    
 }
 
 .home .info p{
@@ -44,6 +44,7 @@
  .info{
     padding: 15px;
     border: 1px solid #ebebeb;
+    position: relative;
 }
 
 .camion{
@@ -53,9 +54,15 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    font-size: 20px;    
+    font-size: 20px;
+    top: -20px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
-@media (min-width:361px){
+@media (min-width:768px){
     .home main section article{
         box-shadow: 0 0 10px rgb(100 , 100 ,100);
     }
@@ -67,5 +74,55 @@
     }
     .box-banner img{
         width: 100%;
+    }
+    .ultima-visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+   .h2-visita{
+        margin-top: 20px;
+    margin-right: 618px;
+    }
+
+    .ultima-visita article{
+        width:45%;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    .ofertas{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .ofertas article{
+        width: 45%;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    .h2-off{
+        margin: -10px 570px -13px 0px;
+    }
+    
+      
+}
+@media (min-width:1024px){
+    .box-home{
+        display: flex;
+    }
+    .ultima-visita{
+        flex-wrap: nowrap;
+    }
+    .ofertas{
+        flex-wrap: nowrap;
+    }
+    .ultima-visita article{
+        width: 23%;
+    }
+    .ofertas article{
+        width: 23%;
+    }
+    .h2-off {
+        margin: -10px 784px -13px 0px;
     }
 }

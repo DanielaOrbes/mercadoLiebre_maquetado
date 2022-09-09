@@ -11,29 +11,39 @@
 
 <body class="home">
     <header>
-        <div class="box-logo">
+        <section class="box-header">
+            <div class="box-logo">
          <img class="logo" src="/img/logo-mercado-liebre.svg" alt="">
-         <div id="busqueda">
-            <input type="text" placeholder="Buscar productos, marcas">
-            <button><i class="fas fa-search"></i></button>
-         </div> 
         </div>
-<div>
-    <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+         <div class="busqueda">
+            <input type="text" placeholder="Buscar productos, marcas">
+            <button><i class="fas fa-search btn-lupa"></i></button>
+         </div> 
+        
+        <div class="compra">
+          <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        </section>
+        
+        
+<div class="menu">
+    <nav>
+        <ul class="nav1">
+          <li><a href="">Ofertas</a></li>
+          <li><a href="">Tiendas Oficiales</a></li>
+          <li><a href="">Vender</a></li>
+          <li><a href="">Ayuda</a></li>         
+        </ul>
+     </nav>
+     <nav>
+        <ul class="nav2"> 
+          <li><a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a></li>
+          <li><a href="">Ingresar <i class="fas fa-sign-in-alt"></i></a></li>
+          <li><a href="">Compras  <i class="fas fa-shopping-basket"></i></a></li> 
+        </ul>
+     </nav>
 </div>
-<nav class="menu">
-<ul>
-    <li><a href="">Ofertas</a></li>
-    <li><a href="">Tiendas Oficiales</a></li>
-    <li><a href="">Vender</a></li>
-    <li><a href="">Ayuda</a></li>         
-    </ul>
-    <ul> 
-    <li><a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a></li>
-    <li><a href="">Ingresar <i class="fas fa-sign-in-alt"></i></a></li>
-    <li><a href="">Compras  <i class="fas fa-shopping-basket"></i></a></li> 
-</ul>
-</nav>
+    
 <div class="burger">
     <i class="fas fa-bars"></i>
     </div>
@@ -43,8 +53,9 @@
         <div class="box-banner">
             <img src="/img/img-home-banner.jpg" alt="">
         </div>
-        <section>
-            <h2>Basado en tu última visita</h2>
+        <h2 class="h2-visita">Basado en tu última visita</h2>
+        <section class="ultima-visita">
+            
             <article>
                 <div class="producto">
                     <img src="/img/img-cafetera-moulinex.jpg" alt="">
@@ -53,6 +64,7 @@
                     <div class="camion">
                     <i class="fas fa-truck"></i>
                 </div>
+                
                 <p>$6.770</p>
                 <span>40% off</span>
                 <h3>Cafetera Moulinex</h3>
@@ -102,8 +114,9 @@
            </article>
 
         </section>
-        <section>
-            <H2>¡OFERTAS!</H2>
+        <H2 class="h2-off">¡OFERTAS!</H2>
+        <section class="ofertas">
+            
             <article>
                 <div class="producto">
                     <img src="/img/img-cafetera-moulinex.jpg" alt="">

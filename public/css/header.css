@@ -29,9 +29,76 @@ header {
     text-align: center;
   }
 
-  @media (min-width:361px){
+  @media (min-width:768px){
   .menu{
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .nav1{
+    display: flex;
+    
+  }
+  .nav2{
+    display: flex;
+    
+  }
+  .nav1 li{
+    margin-left: 10px;
+  }
+  .nav2 li{
+    margin-left: 10px;
+  }
+
+   header .burger{
+    display: none;
+  }
+  .logo{
+    width: 100%;
+  }
+  .box-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  .box-logo {
+    width: 30%;
+  }
+  .busqueda{
+    width: 50%;
+    justify-content: center;
+  }
+  .busqueda input{
+    border: 1px;
+    box-shadow: 0 0 8px #a19a9a;
+    width: 48%;
+    border-radius: 3px 0px 0px 3px;
+
+  }
+  .busqueda button{
+    border: 1px;
+    box-shadow: 0 0 8px #a19a9a;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .compra{
+    margin-left: -170px;
+    font-size: 12px;
+  }
+  .btn-lupa{
+    font-size: 10px;
+  }
+
+ }
+ @media (min-width:1024px){
+  .menu{
+    justify-content: space-between;
+  }
+  .nav1 li{
     margin-left: 20px;
+  }
+  .nav2 li{
+    margin-left: 20px;
+    margin-right: 20px;
   }
  }
